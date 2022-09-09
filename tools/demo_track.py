@@ -33,7 +33,7 @@ def make_parser():
     parser.add_argument("--camid", type=int, default=0, help="webcam demo camera id")
     parser.add_argument(
         "--save_result",
-        action="store_true",
+        default="true",
         help="whether to save the inference result of image/video",
     )
 
